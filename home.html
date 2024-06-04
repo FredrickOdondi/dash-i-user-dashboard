@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash-i</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+       
+    </style>
+</head>
+
+<body class="bg-[#1F2937] mx-10 ">
+    <nav class="text-red-500 flex justify-end items-center border-2 py-3 pr-10 rounded-2xl">
+        <input class="py-2" type="search" name="" id="">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+       
+      </nav>
+      
+    <div class="h-full w-[300px] fixed z-10 top-0 left-0 bg-[#111827] overflow-x-hidden">
+        <div class="flex ml-9 mt-10">
+            <i class="fa-solid fa-home text-[1.3rem] text-white opacity-100  mr-5"></i>
+            <h1 class="text-gray-200 font-bold">Home</h1>
+        </div>
+
+
+            <div>
+                <h1 class="mt-10 text-gray-400 ml-9">Welcome back,</h1>
+            </div>
+            <div class="flex ml-9 mt-3 border-b border-b-gray-600">
+                <i class="fa-solid fa-person text-[1.3rem] text-white opacity-100  mr-5"></i>
+                <h1 class=" text-green-400 text-lg  mb-10 ">Moki</h1>
+            </div>
+            <div class="flex ml-9 mt-5 mb-6">
+                <i class="fa-solid fa-car text-[1.3rem] text-white opacity-100  mr-5"></i>
+                <h1 class=" text-gray-200 mr-3">Vehicle Information </h1>
+            </div>
+            <div class="border-b ml-9 border-b-gray-600">
+                <h1 class="mt-3 text-gray-400 mb-6">Mazda CX5</h1>
+                <button class="border-2 px-5 py-0.3 rounded-lg border-green-400 bg-green-400 text-white mb-3">Update Vehicle</button>
+                
+                <button class="border-2 px-5 py-0.3 rounded-lg border-red-600 bg-red-600 text-white mb-6">Delete Vehicle</button>
+            </div>
+            <div class="flex ml-9 mt-5 mb-5">
+                <i class="fa-solid fa-camera text-[1.3rem] text-white opacity-100  mr-5"></i>
+                <h1 class=" text-gray-200 ">Camera Settings</h1>
+            </div>
+            <div class="mb-3">
+                <h1 class="ml-9 text-gray-400">Camera Status :</h1>
+                <h1 class=" text-green-400 ml-9">Online</h1>
+            </div>
+            <div class="ml-9 ">
+                <label class="text-gray-400 mr-3 mb-3" for="cars">Camera Quality:</label>
+                    <select class="mt-3 mb-3 border-2 px-9 py-1 rounded-lg bg-gray-600 border-gray-600 text-white" name="cars" id="cars">
+                    <option value="4K">4K </option>
+                    <option value="2K">2K</option>
+                    <option value="1080P">1080P</option>
+                    <option value="790P">790P</option>
+                    </select>
+
+                    
+            </div>
+            <div class="ml-9 border-b border-b-gray-600">
+                <label class="text-gray-400 mr-3 mb-3" for="cars">Recording Duration :</label>
+                <select class="mt-3 mb-3 border-2 px-9 py-1 rounded-lg bg-gray-600 border-gray-600 text-white" name="cars" id="cars">
+                <option value="5">5 minutes  </option>
+                <option value="10">10 minutes</option>
+                <option value="15">15 minutes</option>
+                <option value="stream">Stream</option>
+                </select>
+            </div>
+            <div class="flex ml-9 mt-8 mb-10">
+                <i class="fa-solid fa-power-off text-[1.3rem] text-red-500 opacity-100  mr-5"></i>
+                <input class="text-gray-200" type="button" value="Log Out">
+            </div>
+    </div>
+    
+
+    
+   
+    
+</body>
+
+</html>
